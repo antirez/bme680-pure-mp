@@ -219,10 +219,10 @@ class BME680:
                     (pressure_oversampling << 2))
         self.setreg(BME680_REG_CTRL_HUM, humidity_oversampling)
 
+        self.set_gas_enabled(gas)
         if gas:
             # If a gas reading is requested, enable gas, set up heater
             # temperature and heater-on time for profile 0.
-            self.set_gas_enabled(gas)
             self.set_gas_heater(temp=gas_temp,ms=gas_ms)
 
         # Enable forced mode. After the reading the device will return
