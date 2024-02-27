@@ -110,7 +110,7 @@ However if you really want to play with this, use:
 
 Temperatures range from 200 to 400 degrees.
 Heating-on times up to a bit more than 4000 milliseconds.
-See the `.self.set_gas_heater()` method in the code for details and
+See the `set_gas_heater()` method in the code for details and
 make sure to check the datasheet.
 
 ## Examples
