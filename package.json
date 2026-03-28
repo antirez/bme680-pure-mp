@@ -1,0 +1,8 @@
+{
+  "urls": [
+  ],
+  "deps": [
+    [ "github:antirez/bme680-pure-mp/azbme680.py", "main" ]
+  ],
+  "version": "0.1"
+}
